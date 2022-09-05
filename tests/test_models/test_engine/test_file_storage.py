@@ -80,6 +80,7 @@ class TestFileStorage(unittest.TestCase):
         l1 = dir(FileStorage())
         self.assertIn('_FileStorage__file_path', l1)
         self.assertIn('_FileStorage__objects', l1)
+
     def test_save(self):
         """Test the save method"""
 
